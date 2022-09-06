@@ -1,8 +1,8 @@
 ---
 title: "Megan startup"
-author: "TLE"
+date: 6th Sep 2022
 output: 
-  bookdown::pdf_document2:
+  bookdown::html_document2:
     toc: true
     number_sections: true
     fig_caption: yes
