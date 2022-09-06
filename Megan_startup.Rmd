@@ -1,0 +1,96 @@
+---
+title: "Megan startup"
+author: "TLE"
+date: "06/09/2022"
+output: 
+  bookdown::html_document2:
+    toc: true
+    number_sections: true
+    fig_caption: yes
+    df_print: paged
+bibliography: glaciers.bib
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+Welcome to my research group, QUIIC! This used to stand for Quantifying Uncertainty In Ice sheet Change, but as of now it can be renamed to **Quantifying Uncertainty In Ice Change**. Here's the [definition](https://www.urbandictionary.com/define.php?term=Quiic)...
+
+Below is a list of things I've been thinking of for you to start reading and doing. Not all before the first meeting! More like the first stage of work and learning, to build on as we go along.
+
+# Reading and background
+
+## Glacier models
+
+Here are two models you will might well work with. There's a lot to read here, so don't expect to understand or get through all of it immediately - just keep returning to it to absorb more:
+
+The @Giesen:2012dz [simple energy balance model](https://tc.copernicus.org/articles/6/1463/2012/) - Tom and I call this the GO model as it doesn't have a name.
+
+The Open Global Glacier Model [OGGM](https://oggm.org) - this is an open-source, modular model, so it might be that you incorporate the GO (or similar) energy balance model into it to compare with the temperature index module. There are educational versions you can play with too.
+
+The review paper by @Zekollari:2022ho looks useful - Harry is the lead of GlacierMIP3 and works in PROTECT.
+
+## GlacierMIP
+
+Have a read through the [GlacierMIP Activities/Experiments](https://climate-cryosphere.org/glaciermip-activities-experiments) page. 
+
+You've already read the GlacierMIP2 projections paper: @Marzeion:2020gw
+
+
+## Glacier data
+
+Glacier modellers are currently calibrating their models with a recent estimate of global glacier mass balances from 2000-2019 by @Hugonnet:2021br, so I would take a look at this and potentially a first look at the data too. (I haven't read this myself yet, just skimmed bits).
+
+
+# Teaching and GO model practical
+
+## Auditing modules
+
+I suggest you "audit"" the modules _Fundamentals of Climate Change_ (FCC) in Term 1 and _Modelling Environmental Change_ in Term 2 - i.e. attend the lectures/practicals but don't submit the coursework. I've added you as a student course viewer to FCC 22/23 and MEC 21/22. (I can add you to MEC 22/23 once it's created for Term 2).
+
+## GO model practical
+
+The MEC practical 5 uses the GO model for a Swedish glacier - I would work through these materials now. There's prep quiz (as a Word doc for auditing students - hide the comments when you open it, to try and answer the questions yourself), then a few lectures slides by Tom about the model and quiz answers, then a worksheet that uses the GO model in an online RStudio workspace.
+
+You won't know a few of the uncertainty parts of the worksheet yet - "Latin hypercube", "history matching" etc, which are covered in Lecture 2 - but don't worry about that for now. I think you'll be able to get the gist of what's happening just by going through it. See if you can go through all the steps. There's an answer sheet on KEATS, and you can ask us afterwards about which bits didn't make sense.
+
+Once you get through that, I would download the code from Github (top of the worksheet) and make it work locally rather than online. See the README there about some edits you need to make to the code (working directories). You need to install the packages listed in install.R too.
+
+Then, if that works, the next step will be to see if you can get it to run for another glacier - see the section on KEATS.
+
+1. **Climate**
+
+You could just use the same climate files for now. Or go back to your 2nd year climate notes and find how to download new CMIP6 files (the second part of the practical - not the UKCP18 bit). Or else work through Practical 1 of MEC, which is similar but starts with CMIP6. If you want inspiration for which model and scenario to download, you could pick one from the GlacierMIP2 projections paper? The R code to extract temperature and precipication data from one grid cell is under Practical 6.
+
+2. **Mass balance data**
+
+To get mass balance data for another glacier, the data sources Word doc under Practical 6 has the link to the database Tom used. Later, we will use the data from @Hugonnet:2021br.
+
+I would either pick another glacier near the original one (if using the same climate), or else one in Iceland...(we'll talk about why later).
+
+3. **Hypsometry data**
+
+Find this for your chosen glacier.
+
+
+I'm not sure if the KEATS instructions are complete - no students tried it last year - so please let us know if you get stuck, and we can improve the instructions.
+
+# Other training and conferences
+
+Things you might want to go to:
+
+* [Karthaus glaciology school](https://www.projects.science.uu.nl/iceclimate/karthaus) - late May 2023; applications not open yet
+* [CPOM](https://cpom.org.uk) Annual Meeting every Sep, near Castleton - early career, informal; join the email list for their online seminars too - email Lucy Sharpson at L.J.Sharpson@leeds.ac.uk
+* [EGU](https://egu23.eu) meeting every Apr, Vienna - huge 
+
+You'll also need to use:
+
+* LaTeX - I use TexShop on my Mac to create the pdfs but there are many things out there
+* Bibliography software - you already use Zotero, so that's great
+* A logbook: I use a mix of Evernote for digital records and a traditional paper logbook
+
+
+# References
+
+
