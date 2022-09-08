@@ -26,7 +26,7 @@ Here are two models you will might well work with. There's a lot to read here, s
 
 The @Giesen:2012dz [simple energy balance model](https://tc.copernicus.org/articles/6/1463/2012/) - Tom and I call this the GO model as it doesn't have a name.
 
-The Open Global Glacier Model [OGGM](https://oggm.org) - this is an open-source, modular model, so it might be that you incorporate the GO (or similar) energy balance model into it to compare with the temperature index module. There are educational versions you can play with too.
+The Open Global Glacier Model, [OGGM](https://oggm.org), by @Maussion:2019ez - this is an open-source, modular model in Python. I think it will be a good idea to run this model as it's very prominent and well-respected in the literature. It might also be that you incorporate the GO (or similar) energy balance model of surface mass balance into it, to compare directly with results that use the usual temperature index module. There are educational versions you can play with too.
 
 The review paper by @Zekollari:2022ho looks useful - Harry is the lead of GlacierMIP3 and works in PROTECT.
 
