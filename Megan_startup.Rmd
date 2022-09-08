@@ -1,6 +1,6 @@
 ---
 title: "Megan startup"
-date: 6th Sep 2022
+date: Sep 2022
 output: 
   bookdown::html_document2:
     toc: true
