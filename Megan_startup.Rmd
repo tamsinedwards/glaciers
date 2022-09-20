@@ -89,6 +89,8 @@ You'll also need to use:
 * Bibliography software - you already use Zotero, so that's great
 * A logbook: I use a mix of Evernote for digital records and a traditional paper logbook
 
+I ask my group to write a brief update in an online file (e.g. via One Drive) before each weekly meeting, so that I can get an idea of what you've been doing and what you're currently stuck on. It's also a good place to put new plots to show, and serves as a helpful record for your 3 monthly progress reports (and a reminder of how much progress you've made, even when you don't alway feel like it).
+
 # King's things
 
 If you don't know this already, go to KEATS -> Geography Handbook -> Postgraduate Research Programmes -> Geography PGR Handbook is an important read, as is the SSPP PGR Faculty-level handbook linked from the top of the first page. This has all the info on things like upgrades, avenues of support, etc.
